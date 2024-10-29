@@ -1,0 +1,72 @@
+QMainWindow {
+    background-color: #2e2e2e;
+    color: white;
+}
+
+QHeaderView::section {
+    background-color: #3c3c3c;
+    color: white;
+}
+
+QTableWidget {
+    background-color: #2e2e2e;
+}
+
+QTableWidgetItem {
+    background-color: transparent;
+    color: white;
+}
+
+QPushButton {
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #5a5a5a;
+}
+
+QLineEdit {
+    background-color: #3c3c3c;
+    color: white;
+    border: 1px solid #4a4a4a;
+    padding: 5px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #5a5a5a;
+}
+
+QMessageBox {
+    background-color: #2e2e2e;
+    color: white;
+}
+
+QColorDialog {
+    background-color: #3c3c3c;
+}
+
+QColorDialog QLabel {
+    color: white;
+}
+
+QMenu {
+    background-color: #3c3c3c;
+    color: white;
+}
+
+QMenu::item {
+    background-color: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #4a4a4a;
+}
+
+* {
+    font-family: "Arial";
+    font-size: 12pt;
+}
